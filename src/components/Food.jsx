@@ -23,7 +23,7 @@ const filterType = (category) => {
       )
     }
 
-  console.log(data);
+  // console.log(data);
 
 
 
