@@ -69,26 +69,31 @@ const Navbar = () => {
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex">
-              <TbTruckDelivery size={25} className="mr-4" /> Orders
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer ">
+              <TbTruckDelivery size={25} className="mr-4 text-orange-500" />{" "}
+              Orders
             </li>
-            <li className="text-xl py-4 flex">
-              <MdFavorite size={25} className="mr-4" /> Favorites
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <MdFavorite size={25} className="mr-4 text-orange-500" />{" "}
+              Favorites
             </li>
-            <li className="text-xl py-4 flex">
-              <FaWallet size={25} className="mr-4" /> Wallet
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <FaWallet size={25} className="mr-4 text-orange-500" /> Wallet
             </li>
-            <li className="text-xl py-4 flex">
-              <MdHelp size={25} className="mr-4" /> Help
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <MdHelp size={25} className="mr-4 text-orange-500" /> Help
             </li>
-            <li className="text-xl py-4 flex">
-              <AiFillTag size={25} className="mr-4" /> Promotions
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <AiFillTag size={25} className="mr-4 text-orange-500" />{" "}
+              Promotions
             </li>
-            <li className="text-xl py-4 flex">
-              <BsFillSaveFill size={25} className="mr-4" /> Best Ones
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <BsFillSaveFill size={25} className="mr-4 text-orange-500" /> Best
+              Ones
             </li>
-            <li className="text-xl py-4 flex">
-              <FaUserFriends size={25} className="mr-4" /> Invite Friends
+            <li className="text-xl py-4 flex hover:text-orange-500 cursor-pointer">
+              <FaUserFriends size={25} className="mr-4 text-orange-500" />{" "}
+              Invite Friends
             </li>
           </ul>
         </nav>
