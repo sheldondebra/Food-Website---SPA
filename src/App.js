@@ -1,4 +1,5 @@
 import Categories from "./components/Categories";
+import Contact from "./components/Contact";
 import Food from "./components/Food";
 import Footer from "./components/Footer";
 import HeadlineCards from "./components/HeadlineCards";
@@ -13,7 +14,9 @@ function App() {
       <HeadlineCards />
       <Food />
       <Categories />
+      <Contact/>
       <Footer />
+
     </div>;
 }
 

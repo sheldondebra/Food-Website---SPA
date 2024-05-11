@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @layer base {
   button{
     @apply border-black rounded-xl px-5 py-1
   }
+}
+
+*{
+  font-family: 'Outfit', sans-serif;
 }

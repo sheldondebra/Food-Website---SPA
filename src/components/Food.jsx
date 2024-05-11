@@ -116,12 +116,12 @@ const filterType = (category) => {
         {foods.map((item, index) => (
           <div
             key={index}
-            className="border shadow-lg hover:scale-105 rounded-lg duration-300"
+            className="border shadow-lg hover:scale-105  hover:text-orange-400 rounded-lg duration-300"
           >
             <img
               src={item.image}
               alt={item.name}
-              className="w-full h-[200px] object-cover rounded-t-lg"
+              className="w-full h-[200px] object-cover rounded-t-lg hover:blur-sm"
             />
             <div className="flex justify-between px-2 py-4">
               <p className="font-bold">{item.name}</p>

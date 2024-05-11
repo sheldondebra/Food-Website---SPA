@@ -9,7 +9,7 @@ function Categories() {
       </h1>
       {/* Categories */}
 
-      <div className="grid grid-cols-2 md:grid-cols4 gap-4 py-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-6">
         {categories.map((item, index) => (
           <div
             key={index}
