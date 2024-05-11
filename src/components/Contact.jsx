@@ -44,7 +44,7 @@ function Contact() {
 
 
   return (
-    <div className="max-w-[1640px] m-auto px-4 py-3  ">
+    <div className="max-w-[1640px] m-auto px-4 py-3 mb-6 ">
       <h1 className="text-4xl text-center font-bold text-orange-600 mb-6">
         Get in Touch
       </h1>
@@ -62,8 +62,9 @@ function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="mt-7 ">
-          <form action="">
+        <div className="mt-2 pb-6 mb-5 ">
+          <h6 className='mb-4 text-2xl tracking-tight'>Kindly fill the form Below</h6>
+          <form action="" >
             <div>
               <input
                 type="text"
