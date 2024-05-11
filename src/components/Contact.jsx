@@ -48,14 +48,13 @@ function Contact() {
       <h1 className="text-4xl text-center font-bold text-orange-600 mb-6">
         Get in Touch
       </h1>
-      <div className="grid lg:grid-cols-2">
-        <div className=" ">
+      <div className="grid lg:grid-cols-2 gap-6">
+        <div className=" w-[50] ">
           {/* Google Map */}
 
-          <ReactIframe
+          <ReactIframe 
+            className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15880.636174715723!2d-0.1759914!3d5.6901449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d91abd6eac9%3A0x478aec2a0cefe30d!2sSheldons%20Place!5e0!3m2!1sen!2sgh!4v1715410807543!5m2!1sen!2sgh"
-            width="700"
-            height="450"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
